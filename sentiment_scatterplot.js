@@ -12,11 +12,11 @@ let svg = d3.select('#scatterplot')
   .append('g')
   .attr('transform', `translate(${margin.left},${margin.top})`);
 
-d3.json('data/scatterplot_data.json', (error, data) => {
+d3.json('data/scatterplot_data3.json', (error, data) => {
   if (error) throw error;
 
-  x.domain([40, 100]);
-  y.domain([-0.5, 0.5]);
+  x.domain([50, 100]);
+  y.domain([0, 0.3]);
 
   svg.append('g')
     .attr('class', 'dots')
@@ -34,20 +34,23 @@ d3.json('data/scatterplot_data.json', (error, data) => {
   svg.append('g')
     .attr('class', 'dot-labels')
     .selectAll('text')
-    .data(data.filter(d => d.num_albums >= 5))
+    .data(data.filter(d => ['drake',
+      'future',
+      'chance the rapper',
+      'frank ocean',
+      'lil wayne',
+      'kanye'].includes(d.artist)))
     .enter()
     .append('text')
-    .attr('transform', 'rotate(-45)')
-    .attr('transform-origin', d => `${x(d.avg_score)} ${y(d.sentiment)}`)
     .attr('text-align', 'start')
     .attr('x', d => x(d.avg_score) + 4)
-    .attr('y', d => y(d.sentiment) - 3)
+    .attr('y', d => y(d.sentiment) - 1)
     .text(d => d.artist)
     .attr('font-size', 8);
 
   svg.append('g')
     .attr('class', 'x axis')
-    .attr('transform', `translate(0,${height / 2})`)
+    .attr('transform', `translate(0,${height})`)
     .call(d3.axisBottom(x));
   svg.append('g')
     .attr('class', 'y axis')

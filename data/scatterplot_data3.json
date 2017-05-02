@@ -1,0 +1,254 @@
+[
+  {
+    "artist": "kendrick lamar",
+    "avg_score": 89.6,
+    "num_albums": 5,
+    "sentiment": 0.1292779065419269
+  },
+  {
+    "artist": "drake",
+    "avg_score": 76.2,
+    "num_albums": 10,
+    "sentiment": 0.10287934896332465
+  },
+  {
+    "artist": "future",
+    "avg_score": 74.57142857142857,
+    "num_albums": 7,
+    "sentiment": 0.11944253036666014
+  },
+  {
+    "artist": "lupe fiasco",
+    "avg_score": 70.5,
+    "num_albums": 6,
+    "sentiment": 0.10776241451400694
+  },
+  {
+    "artist": "big sean",
+    "avg_score": 70.0,
+    "num_albums": 4,
+    "sentiment": 0.13545152199719204
+  },
+  {
+    "artist": "migos",
+    "avg_score": 73.0,
+    "num_albums": 2,
+    "sentiment": 0.15068522560258615
+  },
+  {
+    "artist": "childish gambino",
+    "avg_score": 71.75,
+    "num_albums": 4,
+    "sentiment": 0.12848936376367742
+  },
+  {
+    "artist": "the weeknd",
+    "avg_score": 76.28571428571429,
+    "num_albums": 7,
+    "sentiment": 0.12385123126168604
+  },
+  {
+    "artist": "kid cudi",
+    "avg_score": 61.833333333333336,
+    "num_albums": 6,
+    "sentiment": 0.16376364619279588
+  },
+  {
+    "artist": "gucci mane",
+    "avg_score": 62.55555555555556,
+    "num_albums": 9,
+    "sentiment": 0.14304528983356624
+  },
+  {
+    "artist": "a tribe called quest",
+    "avg_score": 91.0,
+    "num_albums": 1,
+    "sentiment": 0.17978583369345189
+  },
+  {
+    "artist": "mac miller",
+    "avg_score": 66.33333333333333,
+    "num_albums": 3,
+    "sentiment": 0.17380120450841086
+  },
+  {
+    "artist": "travis scott",
+    "avg_score": 64.0,
+    "num_albums": 2,
+    "sentiment": 0.13080322972677966
+  },
+  {
+    "artist": "partynextdoor",
+    "avg_score": 53.666666666666664,
+    "num_albums": 3,
+    "sentiment": 0.11469050898596353
+  },
+  {
+    "artist": "jeremih",
+    "avg_score": 75.33333333333333,
+    "num_albums": 3,
+    "sentiment": 0.14363784001492338
+  },
+  {
+    "artist": "young thug",
+    "avg_score": 77.83333333333333,
+    "num_albums": 6,
+    "sentiment": 0.15864050282709546
+  },
+  {
+    "artist": "dj khaled",
+    "avg_score": 61.0,
+    "num_albums": 5,
+    "sentiment": 0.19478827012802832
+  },
+  {
+    "artist": "snoop dogg",
+    "avg_score": 67.0909090909091,
+    "num_albums": 11,
+    "sentiment": 0.09152631297960018
+  },
+  {
+    "artist": "schoolboy q",
+    "avg_score": 79.0,
+    "num_albums": 3,
+    "sentiment": 0.13950919645116533
+  },
+  {
+    "artist": "desiigner",
+    "avg_score": 60.0,
+    "num_albums": 1,
+    "sentiment": 0.1060626601699713
+  },
+  {
+    "artist": "yg",
+    "avg_score": 83.0,
+    "num_albums": 1,
+    "sentiment": 0.06593139221571717
+  },
+  {
+    "artist": "chance the rapper",
+    "avg_score": 87.5,
+    "num_albums": 2,
+    "sentiment": 0.1722245603952951
+  },
+  {
+    "artist": "2 chainz",
+    "avg_score": 70.5,
+    "num_albums": 2,
+    "sentiment": 0.17172716036240615
+  },
+  {
+    "artist": "kanye west",
+    "avg_score": 80.11111111111111,
+    "num_albums": 9,
+    "sentiment": 0.127952451564026
+  },
+  {
+    "artist": "wiz khalifa",
+    "avg_score": 56.333333333333336,
+    "num_albums": 3,
+    "sentiment": 0.141726352925887
+  },
+  {
+    "artist": "pusha t",
+    "avg_score": 78.33333333333333,
+    "num_albums": 3,
+    "sentiment": 0.10326845900078226
+  },
+  {
+    "artist": "logic",
+    "avg_score": 73.5,
+    "num_albums": 2,
+    "sentiment": 0.14729668663988266
+  },
+  {
+    "artist": "the game",
+    "avg_score": 72.8,
+    "num_albums": 5,
+    "sentiment": 0.016837457467087064
+  },
+  {
+    "artist": "miguel",
+    "avg_score": 85.0,
+    "num_albums": 2,
+    "sentiment": 0.13963521819771824
+  },
+  {
+    "artist": "lil wayne",
+    "avg_score": 60.55555555555556,
+    "num_albums": 9,
+    "sentiment": 0.13750180206837231
+  },
+  {
+    "artist": "meek mill",
+    "avg_score": 71.5,
+    "num_albums": 2,
+    "sentiment": 0.07343315690481321
+  },
+  {
+    "artist": "calvin harris",
+    "avg_score": 57.0,
+    "num_albums": 1,
+    "sentiment": 0.20498458403649084
+  },
+  {
+    "artist": "action bronson",
+    "avg_score": 75.5,
+    "num_albums": 2,
+    "sentiment": 0.19717575360113296
+  },
+  {
+    "artist": "earl sweatshirt",
+    "avg_score": 81.5,
+    "num_albums": 2,
+    "sentiment": 0.16940581281609163
+  },
+  {
+    "artist": "nicki minaj",
+    "avg_score": 67.6,
+    "num_albums": 5,
+    "sentiment": 0.09148639114108731
+  },
+  {
+    "artist": "eminem",
+    "avg_score": 65.25,
+    "num_albums": 8,
+    "sentiment": 0.06092872129771214
+  },
+  {
+    "artist": "frank ocean",
+    "avg_score": 86.0,
+    "num_albums": 3,
+    "sentiment": 0.139734812527408
+  },
+  {
+    "artist": "game",
+    "avg_score": 63.5,
+    "num_albums": 2,
+    "sentiment": 0.016837457467087064
+  },
+  {
+    "artist": "waka flocka flame",
+    "avg_score": 70.5,
+    "num_albums": 2,
+    "sentiment": 0.11828280101228265
+  },
+  {
+    "artist": "pharrell williams",
+    "avg_score": 52.0,
+    "num_albums": 2,
+    "sentiment": 0.09361689472279289
+  },
+  {
+    "artist": "nelly",
+    "avg_score": 62.4,
+    "num_albums": 5,
+    "sentiment": 0.18292386841337904
+  },
+  {
+    "artist": "missy elliott",
+    "avg_score": 80.75,
+    "num_albums": 4,
+    "sentiment": 0.16411858262351683
+  }
+]

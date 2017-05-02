@@ -3,7 +3,7 @@ import json
 with open('data/metacritic_avgs.json') as metacritic_file:
     metacritic_scores = json.load(metacritic_file)
 
-with open('data/genius_sentiments.json') as genius_file:
+with open('data/artist_sentiments.json') as genius_file:
     genius_sentiments = json.load(genius_file)
 
 
@@ -21,5 +21,5 @@ for x in metacritic_scores:
                 'sentiment': y[1],
             })
 
-with open('data/scatterplot_data.json', 'w') as outfile:
+with open('data/scatterplot_data3.json', 'w') as outfile:
     json.dump(scatterplot_data, outfile)
