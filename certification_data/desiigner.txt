@@ -1,0 +1,18 @@
+AWARD   ARTIST  TITLE   CERTIFICATION DATE  LABEL   FORMAT 
+
+SHARE 
+DESIIGNER   TIMMY TURNER    January 20, 2017    DEF JAM SINGLE
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+JULY 22, 2016   Platinum | January 20, 2017 None    Digital 1 Million   R&B/HIP HOP
+    Gold | December 8, 2016
+
+SHARE 
+DESIIGNER   PANDA   December 8, 2016    DEF JAM SINGLE
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+FEBRUARY 26, 2016   4x Multi-Platinum | December 8, 2016    None    Digital 4 Million   R&B/HIP HOP
+    3x Multi-Platinum | August 19, 2016
+    2x Multi-Platinum | August 19, 2016
+    Platinum | May 3, 2016
+    Gold | May 3, 2016

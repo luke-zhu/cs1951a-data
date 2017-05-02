@@ -1,0 +1,52 @@
+Visualizations:
+Most popular artists on reddit vs most popular artists on charts
+Sentiment of artists on reddit vs metacritic scores
+Sentiment of artists on reddit and popularity of artists
+Artist popularity over time
+
+Results:
+Artists discussed on hip hop forums are generally more highly rated.
+Artists rise and fall.
+What do people on reddit talk about.
+What do people search google for. How does this compare to more hardcore fans.
+What do hardcore hiphop fans talk about on more niche forums.
+
+ML:
+textblob sentiment analysis
+
+
+
+r/hiphopheads vs mainstream audience:
+Google trends show how niche Chance The Rapper and Frank Ocean are compared
+to those that do well on the Billboard Charts.
+
+Based on the top 1000 posts of all time, we can document the most influential
+hip hop events to r/hiphopheads since 2012.
+Kendrick Lamar: TPAB, DAMM., Kanye West: TLAP
+
+People on r/hiphopheads talk about highly rated albums more than about
+popular albums. Kendrick Lamar, Run the Jewels, A Tribe Called Quest, Vince
+Staples all had some of the highest rated rap albums, which generated much
+discussion about the artist.
+
+Unique artists:
+The balance between rap and r&b. The unique popularity of Frank Ocean.
+
+Gender Bias:
+Beyonce, Nicki Minaj, Rihanna, Janelle Monae, Erykah Badu
+show up less than expected.
+
+Sentiment:
+Artist average sentiment not very correlated with artist metacritic score.
+For example, Kendrick Lamar has avg score of .12 much less than a typical
+artist.
+Album sentiment related to album metacritic score. To Pimp a Butterfly has
+a score of 0.2, DAMN. only has a score of about 0.11. Why? Many comments were
+comparing the album to a previous work. The titles in DAMN. are much more
+negative than in his previous work ("Blood", "Lust").
+
+
+Even though Drake dominates the charts
+("Drake currently makes up 13% of the Billboard Hot 100"),
+he does not have the impact that Kendrick Lamar, who releases less songs
+but more highly rated material does.

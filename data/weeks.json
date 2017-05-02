@@ -1,0 +1,926 @@
+[
+  [
+    "Drake",
+    1887
+  ],
+  [
+    "Chris Brown",
+    947
+  ],
+  [
+    "Future",
+    860
+  ],
+  [
+    "Lil Wayne",
+    796
+  ],
+  [
+    "Nicki Minaj",
+    654
+  ],
+  [
+    "2 Chainz",
+    609
+  ],
+  [
+    "Rick Ross",
+    516
+  ],
+  [
+    "Big Sean",
+    483
+  ],
+  [
+    "Kanye West",
+    477
+  ],
+  [
+    "Rihanna",
+    464
+  ],
+  [
+    "The Weeknd",
+    461
+  ],
+  [
+    "Wiz Khalifa",
+    447
+  ],
+  [
+    "Beyonce",
+    417
+  ],
+  [
+    "Kendrick Lamar",
+    398
+  ],
+  [
+    "Trey Songz",
+    340
+  ],
+  [
+    "Jeremih",
+    328
+  ],
+  [
+    "Jay Z",
+    321
+  ],
+  [
+    "Wale",
+    289
+  ],
+  [
+    "Miguel",
+    281
+  ],
+  [
+    "T.I.",
+    268
+  ],
+  [
+    "Fetty Wap",
+    249
+  ],
+  [
+    "Usher",
+    246
+  ],
+  [
+    "Juicy J",
+    238
+  ],
+  [
+    "Tyga",
+    236
+  ],
+  [
+    "Rae Sremmurd",
+    228
+  ],
+  [
+    "DJ Khaled",
+    223
+  ],
+  [
+    "Young Thug",
+    221
+  ],
+  [
+    "Macklemore",
+    213
+  ],
+  [
+    "Meek Mill",
+    203
+  ],
+  [
+    "French Montana",
+    197
+  ],
+  [
+    "B.o.B",
+    191
+  ],
+  [
+    "Jeezy",
+    180
+  ],
+  [
+    "Rich Homie Quan",
+    178
+  ],
+  [
+    "Eminem",
+    175
+  ],
+  [
+    "Migos",
+    173
+  ],
+  [
+    "Pharrell",
+    171
+  ],
+  [
+    "Ty Dolla $ign",
+    170
+  ],
+  [
+    "Iggy Azalea",
+    164
+  ],
+  [
+    "August Alsina",
+    158
+  ],
+  [
+    "ScHoolboy Q",
+    157
+  ],
+  [
+    "Kid Ink",
+    148
+  ],
+  [
+    "Yo Gotti",
+    148
+  ],
+  [
+    "Justin Timberlake",
+    146
+  ],
+  [
+    "John Legend",
+    145
+  ],
+  [
+    "YG",
+    129
+  ],
+  [
+    "Robin Thicke",
+    126
+  ],
+  [
+    "A$AP Rocky",
+    119
+  ],
+  [
+    "Jhene Aiko",
+    115
+  ],
+  [
+    "Kelly Rowland",
+    115
+  ],
+  [
+    "Ludacris",
+    114
+  ],
+  [
+    "Young Jeezy",
+    112
+  ],
+  [
+    "Lil Uzi Vert",
+    110
+  ],
+  [
+    "Sage The Gemini",
+    109
+  ],
+  [
+    "Bryson Tiller",
+    101
+  ],
+  [
+    "Tinashe",
+    96
+  ],
+  [
+    "Gucci Mane",
+    95
+  ],
+  [
+    "G-Eazy",
+    91
+  ],
+  [
+    "Ne-Yo",
+    88
+  ],
+  [
+    "DeJ Loaf",
+    86
+  ],
+  [
+    "Pusha T",
+    84
+  ],
+  [
+    "Kevin Gates",
+    81
+  ],
+  [
+    "PARTYNEXTDOOR",
+    81
+  ],
+  [
+    "Pharrell Williams",
+    80
+  ],
+  [
+    "Tamar Braxton",
+    79
+  ],
+  [
+    "21 Savage",
+    79
+  ],
+  [
+    "50 Cent",
+    77
+  ],
+  [
+    "Jill Scott",
+    77
+  ],
+  [
+    "Mary J. Blige",
+    77
+  ],
+  [
+    "R. Kelly",
+    76
+  ],
+  [
+    "Kirko Bangz",
+    73
+  ],
+  [
+    "Anthony Hamilton",
+    73
+  ],
+  [
+    "Alicia Keys",
+    73
+  ],
+  [
+    "Ciara",
+    72
+  ],
+  [
+    "Travis Scott",
+    72
+  ],
+  [
+    "Missy Elliott",
+    69
+  ],
+  [
+    "Childish Gambino",
+    68
+  ],
+  [
+    "Jay-Z",
+    67
+  ],
+  [
+    "Lil Yachty",
+    67
+  ],
+  [
+    "Tory Lanez",
+    66
+  ],
+  [
+    "E-40",
+    65
+  ],
+  [
+    "T-Pain",
+    65
+  ],
+  [
+    "Frank Ocean",
+    64
+  ],
+  [
+    "Melanie Fiona",
+    64
+  ],
+  [
+    "Chance The Rapper",
+    62
+  ],
+  [
+    "Desiigner",
+    62
+  ],
+  [
+    "A$AP Ferg",
+    60
+  ],
+  [
+    "Fat Joe",
+    59
+  ],
+  [
+    "Jason Derulo",
+    59
+  ],
+  [
+    "Post Malone",
+    58
+  ],
+  [
+    "Justin Bieber",
+    58
+  ],
+  [
+    "Tyrese",
+    58
+  ],
+  [
+    "Kodak Black",
+    58
+  ],
+  [
+    "Bruno Mars",
+    57
+  ],
+  [
+    "Omarion",
+    57
+  ],
+  [
+    "K Camp",
+    56
+  ],
+  [
+    "Snoop Dogg",
+    55
+  ],
+  [
+    "Roscoe Dash",
+    54
+  ],
+  [
+    "Kem",
+    54
+  ],
+  [
+    "Ace Hood",
+    52
+  ],
+  [
+    "Lupe Fiasco",
+    51
+  ],
+  [
+    "Estelle",
+    51
+  ],
+  [
+    "Game",
+    50
+  ],
+  [
+    "Diggy",
+    49
+  ],
+  [
+    "Trinidad James",
+    47
+  ],
+  [
+    "Chief Keef",
+    47
+  ],
+  [
+    "K. Michelle",
+    47
+  ],
+  [
+    "DJ Mustard",
+    47
+  ],
+  [
+    "Rich Gang",
+    46
+  ],
+  [
+    "Charlie Wilson",
+    46
+  ],
+  [
+    "O.T. Genasis",
+    46
+  ],
+  [
+    "Travi$ Scott",
+    45
+  ],
+  [
+    "Ca$h Out",
+    44
+  ],
+  [
+    "Waka Flocka Flame",
+    43
+  ],
+  [
+    "Jidenna",
+    43
+  ],
+  [
+    "Bobby Shmurda",
+    42
+  ],
+  [
+    "DJ Drama",
+    42
+  ],
+  [
+    "KCamp",
+    42
+  ],
+  [
+    "Sevyn Streeter",
+    42
+  ],
+  [
+    "Ledisi",
+    41
+  ],
+  [
+    "Silento",
+    41
+  ],
+  [
+    "Jack",
+    39
+  ],
+  [
+    "Monica",
+    38
+  ],
+  [
+    "Elle Varner",
+    38
+  ],
+  [
+    "Keyshia Cole",
+    37
+  ],
+  [
+    "Cee Lo Green",
+    36
+  ],
+  [
+    "Jennifer Hudson",
+    35
+  ],
+  [
+    "Snootie Wild",
+    35
+  ],
+  [
+    "Mike WiLL Made-It",
+    34
+  ],
+  [
+    "Natalie La Rose",
+    33
+  ],
+  [
+    "LoveRance",
+    33
+  ],
+  [
+    "A Boogie Wit da Hoodie",
+    32
+  ],
+  [
+    "Flo Rida",
+    32
+  ],
+  [
+    "Young Money",
+    32
+  ],
+  [
+    "The Game",
+    32
+  ],
+  [
+    "Fabolous",
+    30
+  ],
+  [
+    "iLoveMemphis",
+    30
+  ],
+  [
+    "Fantasia",
+    30
+  ],
+  [
+    "PnB Rock",
+    29
+  ],
+  [
+    "Michael Jackson",
+    29
+  ],
+  [
+    "Kehlani",
+    29
+  ],
+  [
+    "Musiq Soulchild",
+    29
+  ],
+  [
+    "Marsha Ambrosius",
+    29
+  ],
+  [
+    "Empire Cast",
+    29
+  ],
+  [
+    "Machine Gun Kelly",
+    28
+  ],
+  [
+    "Brandy",
+    28
+  ],
+  [
+    "Nelly",
+    28
+  ],
+  [
+    "Mariah Carey",
+    28
+  ],
+  [
+    "Logic",
+    28
+  ],
+  [
+    "Emeli Sande",
+    27
+  ],
+  [
+    "Russ",
+    26
+  ],
+  [
+    "Alessia Cara",
+    26
+  ],
+  [
+    "MadeinTYO",
+    26
+  ],
+  [
+    "Janelle Monae",
+    26
+  ],
+  [
+    "D.R.A.M.",
+    26
+  ],
+  [
+    "Rocko",
+    25
+  ],
+  [
+    "I LOVE MAKONNEN",
+    25
+  ],
+  [
+    "Rob $tone",
+    25
+  ],
+  [
+    "Luke Nasty",
+    25
+  ],
+  [
+    "Amine",
+    24
+  ],
+  [
+    "T-Wayne",
+    24
+  ],
+  [
+    "Travis Porter",
+    24
+  ],
+  [
+    "Problem",
+    23
+  ],
+  [
+    "Zayion McCall",
+    23
+  ],
+  [
+    "Zay Hilfigerrr",
+    23
+  ],
+  [
+    "Tank",
+    23
+  ],
+  [
+    "Kent Jones",
+    22
+  ],
+  [
+    "Mindless Behavior",
+    22
+  ],
+  [
+    "YFN Lucci",
+    22
+  ],
+  [
+    "Mary Mary",
+    22
+  ],
+  [
+    "DJ ESCO",
+    22
+  ],
+  [
+    "Eric Benet",
+    21
+  ],
+  [
+    "Lloyd",
+    21
+  ],
+  [
+    "Young M.A",
+    21
+  ],
+  [
+    "Belly",
+    20
+  ],
+  [
+    "Young Dro",
+    20
+  ],
+  [
+    "Sean Kingston",
+    20
+  ],
+  [
+    "Aloe Blacc",
+    20
+  ],
+  [
+    "Dae Dae",
+    20
+  ],
+  [
+    "DLOW",
+    20
+  ],
+  [
+    "SoMo",
+    20
+  ],
+  [
+    "Lil Dicky",
+    20
+  ],
+  [
+    "Kirk Franklin",
+    20
+  ],
+  [
+    "TeeFLii",
+    20
+  ],
+  [
+    "Rico Love",
+    20
+  ],
+  [
+    "Dreezy",
+    20
+  ],
+  [
+    "Tamia",
+    19
+  ],
+  [
+    "will.i.am",
+    19
+  ],
+  [
+    "OG Maco",
+    19
+  ],
+  [
+    "Adrian Marcel",
+    19
+  ],
+  [
+    "Maejor Ali",
+    18
+  ],
+  [
+    "The FiNATTiCZ",
+    18
+  ],
+  [
+    "Major Lazer",
+    18
+  ],
+  [
+    "DJ Luke Nasty",
+    17
+  ],
+  [
+    "Chedda Da Connect",
+    17
+  ],
+  [
+    "KYLE",
+    17
+  ],
+  [
+    "Anita Baker",
+    17
+  ],
+  [
+    "Khalid",
+    16
+  ],
+  [
+    "Jonn Hart",
+    16
+  ],
+  [
+    "Tech N9Ne",
+    16
+  ],
+  [
+    "Bando Jonez",
+    15
+  ],
+  [
+    "Kid Cudi",
+    15
+  ],
+  [
+    "We Are Toonz",
+    15
+  ],
+  [
+    "Prince",
+    14
+  ],
+  [
+    "Janet",
+    12
+  ],
+  [
+    "Maxwell",
+    12
+  ],
+  [
+    "Snakehips",
+    12
+  ],
+  [
+    "Bandit Gang Marco",
+    12
+  ],
+  [
+    "Colonel Loud",
+    12
+  ],
+  [
+    "Drop City Yacht Club",
+    12
+  ],
+  [
+    "Johnny Gill",
+    12
+  ],
+  [
+    "Ca$hOut",
+    12
+  ],
+  [
+    "Avant",
+    11
+  ],
+  [
+    "Ro James",
+    11
+  ],
+  [
+    "Driicky Graham",
+    11
+  ],
+  [
+    "Lil Durk",
+    11
+  ],
+  [
+    "Ayo",
+    11
+  ],
+  [
+    "Birdman",
+    11
+  ],
+  [
+    "Ugly God",
+    11
+  ],
+  [
+    "Andra Day",
+    11
+  ],
+  [
+    "XXXTENTACION",
+    11
+  ],
+  [
+    "Bei Maejor",
+    11
+  ],
+  [
+    "Jamie Foxx",
+    11
+  ],
+  [
+    "Busta Rhymes",
+    10
+  ],
+  [
+    "Teyana Taylor",
+    10
+  ],
+  [
+    "P Reign",
+    10
+  ],
+  [
+    "The-Dream",
+    10
+  ],
+  [
+    "Big K.R.I.T.",
+    10
+  ],
+  [
+    "Dr. Dre",
+    10
+  ],
+  [
+    "Tech N9ne",
+    10
+  ],
+  [
+    "Ghost Town DJ's",
+    10
+  ],
+  [
+    "Lil' Boosie",
+    10
+  ]
+]

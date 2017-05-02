@@ -1,0 +1,35 @@
+
+AWARD   ARTIST  TITLE   CERTIFICATION DATE  LABEL   FORMAT 
+
+SHARE 
+A TRIBE CALLED QUEST    THE LOVE MOVEMENT   November 1, 1998    JIVE    ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+SEPTEMBER 29, 1998  Gold | November 1, 1998 GROUP   Standard    0.5 Million None
+
+SHARE 
+A TRIBE CALLED QUEST    BEATS, RHYMES & LIFE    October 27, 1998    JIVE    ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+JULY 30, 1996   Platinum | October 27, 1998 GROUP   Standard    1 Million   None
+    Gold | September 30, 1996
+
+SHARE 
+A TRIBE CALLED QUEST    PEOPLE'S INSTINCTIVE TRAVELS & THE PATHS OF RHYTHM  January 19, 1996    JIVE    ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+APRIL 1, 1990   Gold | January 19, 1996 GROUP   Standard    0.5 Million None
+
+SHARE 
+A TRIBE CALLED QUEST    THE LOW END THEORY  February 1, 1995    JIVE    ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+SEPTEMBER 24, 1991  Platinum | February 1, 1995 GROUP   Standard    1 Million   None
+    Gold | February 19, 1992
+
+SHARE 
+A TRIBE CALLED QUEST    MIDNIGHT MARAUDERS  January 11, 1995    JIVE    ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+OCTOBER 12, 1993    Platinum | January 11, 1995 GROUP   Standard    1 Million   None
+    Gold | January 14, 1994

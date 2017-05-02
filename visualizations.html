@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <style> /* set the CSS */
+        .bar { fill: steelblue; }
+    </style>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+</head>
+<body>
+    <script>
+        var margin = {top: 100, right: 100, bottom: 100, left: 100},
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+        // set the ranges
+        var x1 = d3.scaleBand()
+            .range([0, width])
+            .padding(0.1);
+        var y1 = d3.scaleLinear()
+            .range([height, 0]);
+              
+        // append the svg object to the body of the page
+        // append a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg1 = d3.select("body")
+            .append("svg")
+             .attr("width", width + margin.left + margin.right)
+             .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+             .attr("transform", 
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // get the data
+        d3.json("data/occurrences-top.json", function(error, data) {
+            if (error) throw error;
+
+            data = data.slice(0, 15)
+
+            /*
+            data = [
+                ["Kendrick Lamar", 89.6],
+                ["Kanye West", 80.11111111111111],
+                ["Drake", 76.2],
+                ["Frank Ocean", 86.0],
+                ["Chance the Rapper", 87.5],
+                ["Lil Wayne", 60.55555555555556],
+                ["Gucci Mane", 62.55555555555556],
+                ["Future", 74.57142857142857],
+                ["Tyler", 70.33333333333333],
+                ["Migos", 73.0],
+                ["Desiigner", 60.0],
+                ["Travis Scott", 64.0],
+                ["Kid Cudi", 61.833333333333336],
+                ["Vince Staples", 83.33333333333333],
+                ["Young Thug", 77.83333333333333],
+            ]
+            */
+            // Scale the range of the data in the domains
+            x1.domain(data.map(function(d) { return d[0]; }));
+            // y.domain([0, d3.max(data, function(d) { return d[1]; })]);
+            y1.domain([0, 100]);
+
+            // append the rectangles for the bar chart
+            svg1.selectAll(".bar")
+                .data(data)
+                .enter()
+                .append("rect")
+                 .attr("class", "bar")
+                 .attr("x", function(d) { return x1(d[0]); })
+                 .attr("width", x1.bandwidth())
+                 .attr("y", function(d) { return y1(d[1]); })
+                 .attr("height", function(d) { return height - y1(d[1]); });
+
+            // add the x Axis
+            svg1.append("g")
+                .attr("class", "xaxis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x1));
+
+            // add the y Axis
+            svg1.append("g")
+                .call(d3.axisLeft(y1));
+
+            svg1.selectAll(".xaxis text")  // select all the text elements for the xaxis
+              .attr("transform", "rotate(-45)")
+              .attr("text-anchor", "end");
+
+            svg1.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("x", -height/2)
+            .attr("y", -30)
+            .attr("transform", "rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
+            .text("Number of Mentions");
+
+            svg1.append("text")
+                .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                .attr("x", width / 2)
+                .attr("y", height + 60)  // centre below axis
+                .text("Artist");
+
+            svg1.append("text")
+                .attr("x", (width / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "16px") 
+                .style("text-decoration", "underline")  
+                .text("Most Popular Artists on r/hiphopheads");
+                });
+    </script>
+    <script>
+        var margin = {top: 100, right: 100, bottom: 100, left: 100},
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+        // set the ranges
+        var x2 = d3.scaleBand()
+            .range([0, width])
+            .padding(0.1);
+        var y2 = d3.scaleLinear()
+            .range([height, 0]);
+              
+        // append the svg object to the body of the page
+        // append a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg2 = d3.select("body")
+            .append("svg")
+             .attr("width", width + margin.left + margin.right)
+             .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+             .attr("transform", 
+                "translate(" + margin.left + "," + margin.top + ")");
+
+        // get the data
+        d3.json("data/weeks-unique.json", function(error, data) {
+            if (error) throw error;
+
+            data = data.slice(0, 15)
+            /*
+            data = [
+                ["Drake", 76.2],
+                ["Chris Brown", 51.5],
+                ["Future", 74.57142857142857],
+                ["Nicki Minaj", 67.6],
+                ["Lil Wayne", 60.55555555555556],
+                ["Big Sean", 70.0],
+                ["Rihanna", 69.5],
+                ["2 Chainz", 70.5],
+                ["Wiz Khalifa", 56.333333333333336],
+                ["Kanye West", 80.11111111111111],
+                ["Jeremih", 75.33333333333333],
+                ["Beyonce", 72.2],
+                ["Rick Ross", 67.33333333333333],
+                ["Trey Songz", 68.5],
+                ["Wale", 69.5],
+            ]
+            */
+
+            // Scale the range of the data in the domains
+            x2.domain(data.map(function(d) { return d[0]; }));
+            // y.domain([0, d3.max(data, function(d) { return d[1]; })]);
+            y2.domain([0, 300]);
+
+            // append the rectangles for the bar chart
+            svg2.selectAll(".bar")
+                .data(data)
+                .enter()
+                .append("rect")
+                 .attr("class", "bar")
+                 .attr("x", function(d) { return x2(d[0]); })
+                 .attr("width", x2.bandwidth())
+                 .attr("y", function(d) { return y2(d[1]); })
+                 .attr("height", function(d) { return height - y2(d[1]); });
+
+            // add the x Axis
+            svg2.append("g")
+                .attr("class", "xaxis")
+                .attr("transform", "translate(0," + height + ")")
+                .call(d3.axisBottom(x2));
+
+            // add the y Axis
+            svg2.append("g")
+                .call(d3.axisLeft(y2));
+
+            svg2.selectAll(".xaxis text")  // select all the text elements for the xaxis
+              .attr("transform", "rotate(-45)")
+              .attr("text-anchor", "end");
+
+            svg2.append("text")
+            .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+            .attr("x", -height/2)
+            .attr("y", -30)
+            .attr("transform", "rotate(-90)")
+            .text("Number of Mentions");
+
+            svg2.append("text")
+                .attr("x", (width / 2))             
+                .attr("y", 0 - (margin.top / 2))
+                .attr("text-anchor", "middle")  
+                .style("font-size", "16px") 
+                .style("text-decoration", "underline")  
+                .text("Most Popular Artists on Billboard's Top R&B/Hip Hop");
+
+        });
+    </script>
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/981_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/05mt_q","geo":"","time":"today 5-y"},{"keyword":"/m/02l840","geo":"","time":"today 5-y"},{"keyword":"/m/0g9x698","geo":"","time":"today 5-y"},{"keyword":"/m/0rfdsvp","geo":"","time":"today 5-y"},{"keyword":"/m/0gmbh5m","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"q=%2Fm%2F05mt_q,%2Fm%2F02l840,%2Fm%2F0g9x698,%2Fm%2F0rfdsvp,%2Fm%2F0gmbh5m","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+    <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/981_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"/m/05mt_q","geo":"","time":"today 5-y"},{"keyword":"/m/07ss8_","geo":"","time":"today 5-y"},{"keyword":"/m/0hhwdgn","geo":"","time":"today 5-y"},{"keyword":"/m/047sxrj","geo":"","time":"today 5-y"},{"keyword":"/m/016kjs","geo":"","time":"today 5-y"}],"category":0,"property":""}, {"exploreQuery":"q=%2Fm%2F05mt_q,%2Fm%2F07ss8_,%2Fm%2F0hhwdgn,%2Fm%2F047sxrj,%2Fm%2F016kjs","guestPath":"https://trends.google.com:443/trends/embed/"}); </script> 
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+AWARD   ARTIST  TITLE   CERTIFICATION DATE  LABEL   FORMAT 
+
+SHARE 
+GORILLAZ    FEEL GOOD INC.  June 14, 2006   VIRGIN  SINGLE
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+MARCH 22, 2005  Gold | June 14, 2006    GROUP   Mastertone  0.5 Million None
+
+SHARE 
+GORILLAZ    DEMON DAYS  March 28, 2006  VIRGIN RECORDS  ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+MAY 24, 2005    2x Multi-Platinum | March 28, 2006  GROUP   Standard    2 Million   None
+    Platinum | August 25, 2005
+    Gold | August 25, 2005
+
+SHARE 
+GORILLAZ    GORILLAZ    September 26, 2001  VIRGIN RECORDS  ALBUM
+MORE DETAILS 
+Release Date    Previous Certification(s) | Date(s) Category    Type    Certified Units Genre 
+JUNE 19, 2001   Platinum | September 26, 2001   GROUP   Standard    1 Million   None
+    Gold | August 8, 2001
