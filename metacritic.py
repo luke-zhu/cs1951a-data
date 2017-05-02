@@ -15,5 +15,7 @@ for album in albums:
 with open('data/metacritic_avgs.json', 'w') as outfile:
     avg_scores = []
     for artist, albums in artists.items():
-        avg_scores.append([artist, np.mean([int(album['score']) for album in albums])])
+        avg_scores.append([artist,
+            np.mean([int(album['score']) for album in albums]),
+            len(albums)])
     json.dump(avg_scores, outfile)

@@ -10,11 +10,14 @@
           stroke: steelblue;
           stroke-width: 2px;
         }
+        text {
+           text-transform: capitalize;
+
+        }
     </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
 </head>
 <body>
-    <script src="reddit_time_chart.js"></script>
     <h2>Peaks</h2>
     <ul>
         <li>4/2014: Celebrity AMA trend</li>
@@ -22,5 +25,7 @@
         <li>1/2016 - 2/2016: Kanye West The Life of Pablo</li>
         <li>4/2017: Kendrick Lamar's album DAMN.</li>
     </ul>
+    <div id="scatterplot"></div>
+    <script src="sentiment_scatterplot.js"></script>
 </body>
 </html>

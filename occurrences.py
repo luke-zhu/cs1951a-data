@@ -1,5 +1,9 @@
 import json
 
+import numpy as np
+
+from textblob import TextBlob
+
 with open('data/genius.json', 'r') as post_file:
         posts = json.load(post_file)
 
@@ -22,11 +26,11 @@ for post in posts:
 
         if flag:
             if artist in occurrences:
-                occurrences[artist] += 1
+                occurrences[artist].append(TextBlob(post['title']).sentiment.polarity)
             else:
-                occurrences[artist] = 1
+                occurrences[artist] = [TextBlob(post['title']).sentiment.polarity]
 
-with open('genius_occurences.json', 'w') as outfile:
-    filtered_occurences = sorted([(k, v) for k, v in occurrences.items() if v >= 10],
+with open('genius_sentiments.json', 'w') as outfile:
+    filtered_occurences = sorted([(k, np.mean(v)) for k, v in occurrences.items() if len(v) >= 10],
         key=lambda x: -x[1])
     json.dump(filtered_occurences, outfile)
