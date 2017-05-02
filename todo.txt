@@ -14,15 +14,13 @@ What do hardcore hiphop fans talk about on more niche forums.
 ML:
 textblob sentiment analysis
 
-
-
-r/hiphopheads vs mainstream audience:
+r/hiphheads vs mainstream audience:
 Google trends show how niche Chance The Rapper and Frank Ocean are compared
 to those that do well on the Billboard Charts.
 
 Based on the top 1000 posts of all time, we can document the most influential
 hip hop events to r/hiphopheads since 2012.
-Kendrick Lamar: TPAB, DAMM., Kanye West: TLAP
+Kendrick Lamar albums: TPAB, DAMM., Kanye West album: TLAP
 
 People on r/hiphopheads talk about highly rated albums more than about
 popular albums. Kendrick Lamar, Run the Jewels, A Tribe Called Quest, Vince
@@ -50,3 +48,70 @@ Even though Drake dominates the charts
 ("Drake currently makes up 13% of the Billboard Hot 100"),
 he does not have the impact that Kendrick Lamar, who releases less songs
 but more highly rated material does.
+
+Data:
+r/hiphopheads
+Billboard Charts
+Rap Genius
+Spotify ?
+
+Problem:
+How can we measure the impact of music artists?
+
+Idea:
+Use social media and conventional methods to help us better understand the
+popularity/influence of musicians.
+
+Methodology:
+Use social media and conventional methods to help us better understand the
+popularity/influence of musicians.
+Identify hip hop communities on the web.
+See how these communities differ from the mainstream.
+We assume that the mainstream audience has not changed to much.
+
+Challenges:
+Collecting data. Few structured APIs. Artist names all in different
+formats, data must be cleaned.
+
+Sentiment analysis imperfect - words like nasty, disgusting are not
+always used in a negative light (see Kendrick Lamar DNA).
+
+Results:
+Artists being discussed by avid hip hop listeners and content creators
+do not necessarily have to be popular mainstream. For example, Frank Ocean,
+Chance The Rapper, and Young Thug are artists with few hit singles that
+are widely popular on forums.
+
+The score of a discussion post about an
+album is very related to how well received by critics and users an album
+is received. The highest rated albums on Metacritic all generated much
+attention for their artists on both forums. 
+
+Female artists are rarely discussed.
+
+Rise of trap artists, 2011- (billboard) late 2015- (reddit)
+
+Geographic hubs:
+Atlanta (Migos, Future, Young Thug),
+New York (Desiigner, A$AP Mob),
+Chicago (Kanye West, Chance The Rapper, Jeremih),
+LA (...)
+
+Sentiment analysis - album rating correlated to sentiment polarity of
+reddit comments
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -5,12 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title></title>
     <style> /* set the CSS */
-        .bar { fill: steelblue; }
+        text {
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            display: flex;
+        }
     </style>
     <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 <body>
+    <div>
+        <div id="chart1" class="container"></div>
+        <div id="chart2" class="container"></div>
+    </div>
     <script>
+
+        var common = ["Kanye West", "Drake", "Future", "Lil Wayne"]
+
         var margin = {top: 100, right: 100, bottom: 100, left: 100},
         width = 960 - margin.left - margin.right,
         height = 500 - margin.top - margin.bottom;
@@ -25,7 +38,7 @@
         // append the svg object to the body of the page
         // append a 'group' element to 'svg'
         // moves the 'group' element to the top left margin
-        var svg1 = d3.select("body")
+        var svg1 = d3.select("#chart1")
             .append("svg")
              .attr("width", width + margin.left + margin.right)
              .attr("height", height + margin.top + margin.bottom)
@@ -38,8 +51,7 @@
             if (error) throw error;
 
             data = data.slice(0, 15)
-
-            /*
+            
             data = [
                 ["Kendrick Lamar", 89.6],
                 ["Kanye West", 80.11111111111111],
@@ -57,7 +69,8 @@
                 ["Vince Staples", 83.33333333333333],
                 ["Young Thug", 77.83333333333333],
             ]
-            */
+            
+        
             // Scale the range of the data in the domains
             x1.domain(data.map(function(d) { return d[0]; }));
             // y.domain([0, d3.max(data, function(d) { return d[1]; })]);
@@ -69,6 +82,11 @@
                 .enter()
                 .append("rect")
                  .attr("class", "bar")
+                 .attr("fill", function(d) {
+                    if (common.includes(d[0])) {
+                        return "goldenrod"
+                    }
+                    return "steelblue"})
                  .attr("x", function(d) { return x1(d[0]); })
                  .attr("width", x1.bandwidth())
                  .attr("y", function(d) { return y1(d[1]); })
@@ -93,7 +111,7 @@
             .attr("x", -height/2)
             .attr("y", -30)
             .attr("transform", "rotate(-90)")  // text is drawn off the screen top left, move down and out and rotate
-            .text("Number of Mentions");
+            .text("Average Album Score");
 
             svg1.append("text")
                 .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
@@ -107,7 +125,7 @@
                 .attr("text-anchor", "middle")  
                 .style("font-size", "16px") 
                 .style("text-decoration", "underline")  
-                .text("Most Popular Artists on r/hiphopheads");
+                .text("Metacritic Scores of Top r/hiphopheads Artists");
                 });
     </script>
     <script>
@@ -125,7 +143,7 @@
         // append the svg object to the body of the page
         // append a 'group' element to 'svg'
         // moves the 'group' element to the top left margin
-        var svg2 = d3.select("body")
+        var svg2 = d3.select("#chart2")
             .append("svg")
              .attr("width", width + margin.left + margin.right)
              .attr("height", height + margin.top + margin.bottom)
@@ -138,7 +156,7 @@
             if (error) throw error;
 
             data = data.slice(0, 15)
-            /*
+            
             data = [
                 ["Drake", 76.2],
                 ["Chris Brown", 51.5],
@@ -156,12 +174,12 @@
                 ["Trey Songz", 68.5],
                 ["Wale", 69.5],
             ]
-            */
+            
 
             // Scale the range of the data in the domains
             x2.domain(data.map(function(d) { return d[0]; }));
             // y.domain([0, d3.max(data, function(d) { return d[1]; })]);
-            y2.domain([0, 300]);
+            y2.domain([0, 100]);
 
             // append the rectangles for the bar chart
             svg2.selectAll(".bar")
@@ -169,6 +187,11 @@
                 .enter()
                 .append("rect")
                  .attr("class", "bar")
+                 .attr("fill", function(d) {
+                    if (common.includes(d[0])) {
+                        return "goldenrod"
+                    }
+                    return "steelblue"})
                  .attr("x", function(d) { return x2(d[0]); })
                  .attr("width", x2.bandwidth())
                  .attr("y", function(d) { return y2(d[1]); })
@@ -193,7 +216,14 @@
             .attr("x", -height/2)
             .attr("y", -30)
             .attr("transform", "rotate(-90)")
-            .text("Number of Mentions");
+            .text("Average Album Score");
+
+            svg2.append("text")
+                .attr("text-anchor", "middle")  // this makes it easy to centre the text as the transform is applied to the anchor
+                .attr("x", width / 2)
+                .attr("y", height + 60)  // centre below axis
+                .text("Artist");
+
 
             svg2.append("text")
                 .attr("x", (width / 2))             
@@ -201,7 +231,7 @@
                 .attr("text-anchor", "middle")  
                 .style("font-size", "16px") 
                 .style("text-decoration", "underline")  
-                .text("Most Popular Artists on Billboard's Top R&B/Hip Hop");
+                .text("Metacritic Scores of Top Billboard Hip Hop Artists");
 
         });
     </script>

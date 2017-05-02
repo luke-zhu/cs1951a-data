@@ -5,7 +5,7 @@ import random
 class GeniusSpider(scrapy.Spider):
     name = "genius"
     start_urls = [
-        "https://genius.com/groups/rap-genius/discussions/pagination?page=901"
+        "https://genius.com/groups/rap-genius/discussions/pagination?page=5987"
     ]
 
     def parse(self, response):
@@ -27,7 +27,7 @@ class GeniusSpider(scrapy.Spider):
                 'excerpt': excerpt,
             }
 
-        time.sleep(random.random() / 3)
+        # time.sleep(random.random() / 10)
 
         next_url = response.css('a.next_page::attr(href)').extract_first()
         yield scrapy.Request(url=response.urljoin(next_url), callback=self.parse)

@@ -1,6 +1,7 @@
 import scrapy
 import time
 import random
+import numpy as np
 
 from textblob import TextBlob
 
@@ -23,10 +24,10 @@ class CommentsSpider(scrapy.Spider):
 
     def parseComments(self, response):
         time.sleep(random.random())
-        comments = ' '.join(response.css('div.sitetable div.md p::text').extract())
-        blob = TextBlob(comments)
+        comments = response.css('div.sitetable div.md p::text').extract()
+        blobs = np.array([TextBlob(comment).polarity for comment in comments])
         yield {
             'url': response.url,
-            'polarity': blob.sentiment.polarity,
-            'subjectivity': blob.sentiment.subjectivity,
+            'polarity_mean': np.mean(blobs),
+            'polarity_std': np.std(blobs),
         }
